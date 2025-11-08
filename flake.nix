@@ -19,7 +19,7 @@
         kritaSrc = pkgs.fetchgit {
           url = "https://invent.kde.org/graphics/krita.git";
           inherit rev;
-          hash = "sha256-2WKoA8V7dNREVD5FX38GlqEU1SwK9qJWmJXrEbfFdoQ=";
+          hash = "sha256-W40GrUnodhbl2BUKMrWkgzlCdgeUel1nfzUQkCCzFWQ=";
         };
 
         krita-unwrapped = pkgs.stdenv.mkDerivation rec {

@@ -6,7 +6,7 @@
   outputs = { self, nixpkgs }:
   let
     systems = [ "x86_64-linux" "aarch64-linux" ];
-    rev = "9dd95d08f437c9025ea7da0944927f1cf00e3361";
+    rev = "cc018c6cda5442708188203143e44c0f971784cf";
     version = "master-${rev}";
     forEachSystem = f: nixpkgs.lib.genAttrs systems (system: f system);
   in
